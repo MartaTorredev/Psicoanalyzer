@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3a5adc"
+    android:id="@+id/inicio">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edad"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="221dp"
+        android:hint="Edad"
+        android:autoText="false"
+        android:background="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ciudad"
+        android:layout_alignTop="@+id/edad"
+        android:layout_marginTop="50dp"
+        android:layout_alignRight="@+id/edad"
+        android:layout_alignEnd="@+id/edad"
+        android:layout_alignLeft="@+id/edad"
+        android:layout_alignStart="@+id/edad"
+        android:hint="Ciudad"
+        android:background="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:id="@+id/btn_entrar"
+        android:layout_below="@+id/ciudad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="#ffffff" />
+</RelativeLayout>
